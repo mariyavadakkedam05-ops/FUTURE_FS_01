@@ -116,7 +116,7 @@ git clone https://github.com/yourusername/FUTURE_FS_01.git
 
 ---
 
-## Live Dmo
+## Live Demo
 
 https://ephemeral-macaron-642d26.netlify.app/
 
