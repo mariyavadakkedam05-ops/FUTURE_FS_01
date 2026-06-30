@@ -42,8 +42,8 @@ FUTURE_FS_01/
 ├── index.html
 ├── style.css
 ├── script.js
-├──blue.png
-├──bg.jpeg
+├── blue.png
+├── bg.jpeg
 ├── My_resume.pdf
 └── README.md
 ```
