@@ -1,0 +1,165 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:linear-gradient(135deg,#dff4ff,#b8e0ff);
+    color:#111;
+    text-align:center;
+}
+
+header{
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    background:white;
+    box-shadow:0 4px 12px rgba(0,0,0,0.1);
+}
+
+.logo{
+    font-size:24px;
+    font-weight:bold;
+    color:#0077cc;
+}
+
+nav ul{
+    display:flex;
+    gap:20px;
+    list-style:none;
+}
+
+nav a{
+    text-decoration:none;
+    color:#111;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#0077cc;
+}
+
+section{
+    padding:80px 8%;
+}
+
+.hero img{
+    width:200px;
+    height:200px;
+    object-fit:cover;
+    border-radius:50%;
+    border:5px solid #0077cc;
+    margin-bottom:20px;
+}
+
+.hero{
+    background: linear-gradient(rgb(6, 146, 201), rgba(0, 0, 185, 0.55));
+    background-image: url("bg.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1{
+    font-size:42px;
+    color:#0077cc;
+}
+
+.hero h3{
+    margin-top:15px;
+}
+
+h2{
+    color:#0077cc;
+    margin-bottom:25px;
+}
+
+#about p{
+    max-width:800px;
+    margin:auto;
+    line-height:1.8;
+}
+
+.cards{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+}
+
+.card{
+    background:#0077cc;
+    color:white;
+    padding:16px 28px;
+    border-radius:12px;
+    font-weight:bold;
+}
+
+.project-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.project-card{
+    background:white;
+    padding:25px;
+    border-radius:16px;
+    box-shadow:0 6px 18px rgba(0,0,0,0.12);
+}
+
+.project-card h4{
+    color:#0077cc;
+    margin-bottom:12px;
+}
+
+.resume-btn{
+    display:inline-block;
+    padding:15px 30px;
+    background:#0077cc;
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.resume-btn:hover{
+    background:#005fa3;
+}
+
+#contact a{
+    color:#0077cc;
+    font-weight:bold;
+}
+
+footer{
+    background:#0077cc;
+    color:white;
+    padding:20px;
+    margin-top:40px;
+}
+
+@media (max-width:768px){
+    nav{
+        flex-direction:column;
+        gap:15px;
+    }
+
+    nav ul{
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+
+    .hero h1{
+        font-size:30px;
+    }
+}
